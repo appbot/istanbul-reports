@@ -3,7 +3,7 @@
   "version": "3.0.2",
   "description": "istanbul reports",
   "author": "Krishnan Anantheswaran <kananthmail-github@yahoo.com>",
-  "main": "index.js",
+  "main": "lib/lcov/index.js",
   "files": [
     "index.js",
     "lib"
