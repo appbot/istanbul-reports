@@ -1,5 +1,5 @@
 {
-  "name": "appbot-istanbul-reports",
+  "name": "@appbot.co/istanbul-reports",
   "version": "3.0.2",
   "description": "istanbul reports",
   "author": "Krishnan Anantheswaran <kananthmail-github@yahoo.com>",
@@ -37,6 +37,7 @@
     "istanbul",
     "reports"
   ],
+  "private": false,
   "homepage": "https://istanbul.js.org/",
   "nyc": {
     "exclude": [
@@ -45,6 +46,10 @@
       "lib/html-spa/rollup.config.js",
       "test/**"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/appbot/istanbul-reports.git"
   },
   "engines": {
     "node": ">=8"
